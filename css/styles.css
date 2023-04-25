@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #0A3871;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+body{
+    background-color: lightgray;
+}
+header{
+    background: #0A3871;
+    text-align: center;
+    height: 55px;
+}
+header h1{
+    color: white;
+    padding: 7px;
+}
+#texto_ingresado{
+    display: block;
+    border-style: none;
+    padding: 10px 0 0 10px;
+    width: 500px;
+    height: 100%;
+    border-radius: 5px;
+    font-size: larger;
+}
+.boton_texto{
+    margin: 40px 0 0 20px;
+    border-radius: 10px;
+    width: 20%;
+    height: 50px;
+    font-size: larger;
+}
+#encriptar_boton{
+    background-color: #0A3871;
+    color: white;
+}
+#cajas_de_texto{
+    display: flex;
+    margin: 50px 80px 0 80px;
+    justify-content: space-between;
+    height: 300px;
+}
+#resultado{
+    border-style: none;
+    background-color: white;
+    border-radius: 5px;
+    width: 500px;
+    height: 100%;
+    padding: 10px 0 0 10px;
+    font-size: larger;
+}
+#resultado img{
+    height: 75%;
+    padding: 50px 0 0 110px;
+}
+#botones{
+    text-align: center;
+    margin: 100px;
+}
+#copiar_boton{
+    background-color: #0A3871;
+    color: white;
+}
+#p_aviso p{
+    color: gray;
+    margin-top: 5px;
+}
+#p_aviso img{
+    padding-right: 10px;
+}

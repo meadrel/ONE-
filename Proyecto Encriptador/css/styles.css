@@ -71,3 +71,35 @@ header h1{
 #p_aviso img{
     padding-right: 10px;
 }
+
+@media screen and (max-width: 800px) {
+    #cajas_de_texto{
+        display: block;
+    }
+    #texto_ingresado{
+        width: 100%;
+    }
+    #resultado{
+        border-style: none;
+        background-color: white;
+        border-radius: 5px;
+        width: 100%;
+        padding: 10px 0 0 10px;
+        font-size: larger;
+        margin-top: 20px;
+    }
+    #resultado img{
+        height: 100px;
+        padding: 50px 0 0 80;
+    }
+    #botones{
+        text-align: center;
+        margin: 0;
+    }
+    .boton_texto{
+        border-radius: 10px;
+        width: 60%;
+        height: 80%;
+        font-size: larger;
+    }
+  }

@@ -3,6 +3,8 @@ let desencriptar_boton = document.getElementById('desencriptar_boton');
 let copiar_boton = document.getElementById('copiar_boton');
 let p_resultado = document.getElementById('resultado');
 
+// Declaracion de variables
+
 const encriptar = () => {
     let texto = document.getElementById('texto_ingresado').value.toLowerCase();
     let texto_array = texto.split('');
@@ -56,6 +58,10 @@ const copiar = () => {
     texto_input.innerHTML = '<img src="../media/img_segunda_caja.png" alt="img_segunda_caja" id="img_segunda_caja">';
 };
 
+// Declaracion de funciones
+
 encriptar_boton.onclick = encriptar;
 desencriptar_boton.onclick = desencriptar;
 copiar_boton.onclick = copiar;
+
+// Match de botones y funciones
